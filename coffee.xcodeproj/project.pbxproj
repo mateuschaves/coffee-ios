@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		88B4006F2BBBBF1F00433B76 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B4006E2BBBBF1F00433B76 /* Order.swift */; };
 		88B400722BBBBFE300433B76 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B400712BBBBFE300433B76 /* Webservice.swift */; };
+		88B400762BBBC33F00433B76 /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B400752BBBC33F00433B76 /* OrderListViewModel.swift */; };
 		88B609992BB3A4AD0007E667 /* coffeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B609982BB3A4AD0007E667 /* coffeeApp.swift */; };
 		88B6099B2BB3A4AD0007E667 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B6099A2BB3A4AD0007E667 /* ContentView.swift */; };
 		88B6099D2BB3A4AF0007E667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B6099C2BB3A4AF0007E667 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		88B4006E2BBBBF1F00433B76 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		88B400712BBBBFE300433B76 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		88B400732BBBC25000433B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		88B400752BBBC33F00433B76 /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
 		88B609952BB3A4AD0007E667 /* coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B609982BB3A4AD0007E667 /* coffeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffeeApp.swift; sourceTree = "<group>"; };
 		88B6099A2BB3A4AD0007E667 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +88,14 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		88B400742BBBC32F00433B76 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				88B400752BBBC33F00433B76 /* OrderListViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
 		88B6098C2BB3A4AD0007E667 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +119,7 @@
 		88B609972BB3A4AD0007E667 /* coffee */ = {
 			isa = PBXGroup;
 			children = (
+				88B400742BBBC32F00433B76 /* View Models */,
 				88B400732BBBC25000433B76 /* Info.plist */,
 				88B400702BBBBFD300433B76 /* Services */,
 				88B609C22BB3A4EF0007E667 /* Models */,
@@ -287,6 +298,7 @@
 				88B6099B2BB3A4AD0007E667 /* ContentView.swift in Sources */,
 				88B609992BB3A4AD0007E667 /* coffeeApp.swift in Sources */,
 				88B4006F2BBBBF1F00433B76 /* Order.swift in Sources */,
+				88B400762BBBC33F00433B76 /* OrderListViewModel.swift in Sources */,
 				88B400722BBBBFE300433B76 /* Webservice.swift in Sources */,
 				88B609C42BB3A5060007E667 /* Coffee.swift in Sources */,
 			);
